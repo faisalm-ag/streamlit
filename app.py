@@ -2,8 +2,8 @@ import joblib
 import streamlit as st
 
 # Load Model & Vectorizer
-model = joblib.load(r"C:\Users\faisa\OneDrive\Dokumen\Tugas Kuliah\Faisal\NLP\streamlit\models\model_logistic_regression.pkl")
-tfidf = joblib.load(r"C:\Users\faisa\OneDrive\Dokumen\Tugas Kuliah\Faisal\NLP\streamlit\models\tfidf_vectorizer.pkl")
+model = joblib.load("models/model_logistic_regression.pkl")
+tfidf = joblib.load("models/tfidf_vectorizer.pkl")
 
 # Tampilan Aplikasi
 st.title("Aplikasi Analisis Sentimen Komentar - ファイサル")
